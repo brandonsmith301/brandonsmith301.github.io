@@ -9,7 +9,6 @@ url: https://brandonsmith.github.io/ # the base hostname & protocol for your sit
 
 permalink: /:year-:month/:title
 timezone:
-
 favicon: /assets/img/favicon.ico
 
 google_analytics: #UA—XXXXXXXX-X
@@ -18,9 +17,9 @@ disqus_shortname: brandonsmith301 #disqus shortname
 user:
   name: Brandon Smith
   cv: /assets/img/CV.pdf
-  pic: /assets/img/avatar-768x768.png
+  pic: /assets/img/me.jpg
   picAlt: "catbook"
-  job: A PhD student at UKP, TU Darmstadt
+  # job: Research Assistant at Deakin University
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
@@ -37,16 +36,15 @@ defaults:
       comment: true   
 
 categories-order:
-  - open-source
-  - publications
+  - projects
+  # - publicationså
   - blogs
-  - life>>research
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown 
 
 # Filtering Content
-show_drafts: null
+show_drafts: nullå
 limit_posts: 0
 future:      false
 unpublished: false
