@@ -1,6 +1,6 @@
 ---
 title: Deakin Simpsons AI challenge 2023
-categories: [Blogs]
+categories: [Projects]
 comments: true
 ---
 
